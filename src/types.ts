@@ -10,7 +10,7 @@ export interface JobApplication {
     id: string,
     companyName: string,
     role: string,
-    status: JopStatus,
+    status: JobStatus,
     appliedDate: string
 }
 
